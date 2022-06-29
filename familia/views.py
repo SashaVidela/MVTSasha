@@ -8,13 +8,13 @@ from .models import flia
 
 def crear(request):
     
-    familiar1 = flia(nombre = 'Juan', identificacion = 123456789, nacionalidad = 'Colombia', fecha_naci = '2002-11-13')
+    familiar1 = flia(nombre = 'Cloe', identificacion = 45329876, nacionalidad = 'Ucraniana', fecha_naci = '1995-02-14')
     familiar1.save()
     
-    familiar2 = flia(nombre = 'Daniela', identificacion = 789456, nacionalidad = 'Argentina', fecha_naci = '1971-10-30')
+    familiar2 = flia(nombre = 'Daniela', identificacion = 12457896, nacionalidad = 'Europea', fecha_naci = '1971-10-30')
     familiar2.save()
     
-    familiar3 = flia(nombre = 'Micaela', identificacion = 123456, nacionalidad = 'Argentina', fecha_naci = '1995-09-11')
+    familiar3 = flia(nombre = 'Micaela', identificacion = 32659874, nacionalidad = 'Argentina', fecha_naci = '1995-09-11')
     familiar3.save()
 
 
